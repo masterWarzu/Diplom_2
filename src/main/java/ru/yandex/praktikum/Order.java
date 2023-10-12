@@ -25,4 +25,9 @@ public class Order
     {
         this.ingredients = ingredients;
     }
+
+    public void addIngredient(String ingredient)
+    {
+        ingredients.add(ingredient);
+    }
 }
